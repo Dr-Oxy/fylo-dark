@@ -45,14 +45,12 @@ header {
 }
 
 main {
-  /* position: relative; */
   padding-bottom: 70px;
 }
 
 section {
   margin-bottom: 50px;
   padding: 30px;
-  /* background-color: yellow; */
 }
 
 /* hero section */
@@ -70,12 +68,12 @@ section {
 
 .hero-text h3 {
   margin: 30px auto;
-  font-size: 24px;
-  width: 30%;
+  font-size: 36px;
+  width: 45%;
 }
 
 .hero-text p {
-  width: 38%;
+  width: 40%;
   font-size: 18px;
   margin: 0 auto 20px;
   color: rgb(223, 223, 223);
@@ -140,12 +138,13 @@ section.fylo-works {
   margin-top: 50px;
 }
 
-.work-img {
-  justify-self: end;
+.work-img img {
+  width: 550px;
 }
 
 .work-text {
-  width: 70%;
+  width: 80%;
+  justify-self: start;
 }
 
 .w-mb {
