@@ -19,7 +19,6 @@ body {
 }
 
 header {
-  background-color: red;
   padding: 40px;
   display: flex;
   justify-content: space-between;
@@ -183,8 +182,8 @@ section.fylo-works {
 
 .quotes {
   position: absolute;
-  top: 15px;
-  left: 50px;
+  top: 8px;
+  left: 52px;
 }
 
 .quotes img {
