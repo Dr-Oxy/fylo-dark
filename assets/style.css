@@ -407,10 +407,6 @@ footer .logo {
     height: 220px;
   }
 
-  .hero-text {
-    display: unset;
-  }
-
   .hero-text h3 {
     font-size: 24px;
     width: unset;
@@ -511,10 +507,7 @@ footer .logo {
   /* footer */
 
   footer {
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 200px;
-    padding-bottom: 50px;
+    padding: 200px 30px 50px 30px;
   }
 
   footer .logo {
@@ -531,6 +524,193 @@ footer .logo {
   .foot-contact,
   .foot-links {
     display: unset;
+  }
+
+  .location {
+    margin-top: 20px;
+  }
+
+  .location,
+  .phone {
+    margin-bottom: 20px;
+  }
+
+  .location p {
+    width: 80%;
+  }
+
+  .foot-links li {
+    margin-bottom: 20px;
+  }
+
+  .social-icon {
+    display: flex;
+    justify-content: center;
+  }
+
+  .social-icon div:not(:last-of-type) {
+    margin-right: 15px;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1020px) {
+  header {
+    padding: 40px;
+  }
+
+  .nav-logo img {
+    height: 30px;
+    vertical-align: middle;
+  }
+
+  .nav-lists {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-lists li {
+    margin-left: 50px;
+  }
+
+  .nav-lists a {
+    font-size: 16px;
+  }
+
+  /* hero section */
+
+  .hero img {
+    height: 250px;
+  }
+
+  .hero-text h3 {
+    font-size: 32px;
+    width: 80%;
+  }
+
+  .hero-text p {
+    width: 80%;
+    font-size: 16px;
+  }
+
+  .hero-text button {
+    padding: 15px 30px;
+    font-size: 16px;
+  }
+
+  /* intro section */
+  .intro {
+    display: unset;
+  }
+
+  .info-text .sub {
+    width: 60%;
+    margin: auto;
+  }
+
+  .item-wrap:not(:last-of-type) {
+    margin-bottom: 50px;
+  }
+
+  /* fylo-works section */
+
+  section.fylo-works {
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .work-img {
+    text-align: center;
+  }
+
+  .work-img img {
+    width: 60%;
+    justify-self: unset;
+  }
+
+  .work-text h3 {
+    font-size: 32px;
+  }
+
+  .work-text {
+    margin-top: 30px;
+    width: unset;
+  }
+
+  .work-text p:not(:last-of-type) {
+    width: 70%;
+  }
+
+  .card-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .quotes {
+    top: 0;
+    left: 30px;
+  }
+
+  .card {
+    margin: 0 auto;
+    width: 20rem;
+  }
+
+  .card:not(:last-of-type) {
+    margin-bottom: 25px;
+  }
+
+  .card-top p {
+    font-size: 12px;
+  }
+
+  .sign-up {
+    width: 90%;
+    left: 5%;
+    bottom: 80%;
+  }
+
+  .sign-up h3 {
+    font-size: 24px;
+  }
+
+  input[type="email"],
+  input[type="submit"] {
+    width: 80%;
+    padding: 20px;
+  }
+
+  input[type="submit"] {
+    margin-left: unset;
+    margin-top: 20px;
+  }
+
+  .space {
+    height: 50px;
+  }
+
+  /* footer */
+
+  footer {
+    padding: 200px 30px 50px 30px;
+  }
+
+  footer .logo {
+    padding-top: 120px;
+  }
+
+  .foot-wrap {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 250px 200px 150px;
+    gap: 50px;
+  }
+
+  .foot-contact {
+    display: unset;
+  }
+
+  .foot-links {
+    display: flex;
   }
 
   .location {
